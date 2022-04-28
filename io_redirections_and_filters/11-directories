@@ -1,2 +1,2 @@
 #!/bin/bash
-dir *. * / s
+find -type d -not -path "." | wc -l
